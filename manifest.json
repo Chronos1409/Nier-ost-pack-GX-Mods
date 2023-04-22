@@ -1,0 +1,116 @@
+{
+    "name": "Nier ost pack v1.3",
+    "description": "Credits goes to original artists",
+    "developer":
+    {
+        "name": "Nova LZ,Chronos"
+    },
+    "icons":
+    {
+        "512": "icon.png"
+    },
+    "manifest_version": 3,
+    "mod":
+    {
+        "license": "license.txt",
+        "payload":
+        {
+            "background_music":
+            [
+                "Backgroundmusic/Nier_All_track.mp3"
+            ],
+			"browser_sounds":
+			{
+				 "HOVER":
+                [
+                    "sounds/nier_notif_hover.mp3"
+                ]
+			},
+			
+  "page_styles":
+            [
+                {
+                    "matches":
+                    [
+                        "https://*.discord.com/*"
+                    ],
+                    "css":
+                    [
+                        "css/amoled.css"
+                    ]
+                }
+            ],
+			"keyboard_sounds":
+            {
+                "TYPING_LETTER":
+                [
+                    ""
+                ],
+                "TYPING_ENTER":
+                [
+                    "sounds/nier_automata_menu_Enter.mp3"
+                ],
+                "TYPING_SPACE":
+                [
+                    "sounds/Nier_Automata_Mail_space.mp3"
+                ],
+                "TYPING_BACKSPACE":
+                [
+                    "sounds/niera_sound_backspace.mp3"
+                ]
+            },
+            "theme":
+            {
+                "dark":
+                {
+                    "gx_accent":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 87
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 0,
+                        "s": 0,
+                        "l": 11
+                    }
+                },
+                "light":
+                {
+                    "gx_accent":
+                    {
+                        "h": 112,
+                        "s": 80,
+                        "l": 44
+                    },
+                    "gx_secondary_base":
+                    {
+                        "h": 272,
+                        "s": 32,
+                        "l": 16
+                    }
+                }
+            },
+            "wallpaper":
+            {
+                "dark":
+                {   
+                   "image": "video.webm",
+                    "first_frame" : "firstframe.png",
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#757575"
+                },
+                "light":
+                {
+                    "image": "video.webm",
+                    "first_frame" : "firstframe.png",					
+                    "text_color": "#FFFFFF",
+                    "text_shadow": "#0B000E"
+                }
+            }
+        },
+        "schema_version": 1
+    },
+    "version": "1.3.1"
+}
